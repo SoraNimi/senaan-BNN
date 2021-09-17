@@ -41,7 +41,7 @@ def binary_tanh(x):
 
 #batch_size = 4096
 batch_size = 128
-epochs = 300
+epochs = 500
 
 #epochs = 1
 #epochs = 1
@@ -143,7 +143,8 @@ history = model.fit(X_train, Y_train,
 score = model.evaluate(X_test, Y_test, verbose=0)
 print('Test score:', score[0])
 print('Test accuracy:', score[1])
-
+weight=model.get_weights()
+np.save('weight_512.npy',weight)
 ################save weight
 #model.save_weights('m1024bias4''nol.h5')
 #model.save('m1024bias0nol.h5')
