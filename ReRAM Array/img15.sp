@@ -2283,10 +2283,10 @@ vx379 x379 0 PWL
 +	200n    mvdd
 
 vx380 x380 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx381 x381 0 PWL  
 +	0n		0
@@ -2433,10 +2433,10 @@ vx404 x404 0 PWL
 +	200n    0
 
 vx405 x405 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx406 x406 0 PWL  
 +	0n		mvdd

@@ -1083,10 +1083,10 @@ vx179 x179 0 PWL
 +	200n    mvdd
 
 vx180 x180 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx181 x181 0 PWL  
 +	0n		0
@@ -1095,10 +1095,10 @@ vx181 x181 0 PWL
 +	200n    0
 
 vx182 x182 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx183 x183 0 PWL  
 +	0n		mvdd
@@ -1239,10 +1239,10 @@ vx205 x205 0 PWL
 +	200n    mvdd
 
 vx206 x206 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx207 x207 0 PWL  
 +	0n		0
@@ -1401,10 +1401,10 @@ vx232 x232 0 PWL
 +	200n    mvdd
 
 vx233 x233 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx234 x234 0 PWL  
 +	0n		0
@@ -1617,10 +1617,10 @@ vx268 x268 0 PWL
 +	200n    mvdd
 
 vx269 x269 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx270 x270 0 PWL  
 +	0n		0
@@ -2109,10 +2109,10 @@ vx350 x350 0 PWL
 +	200n    mvdd
 
 vx351 x351 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx352 x352 0 PWL  
 +	0n		0
@@ -2247,10 +2247,10 @@ vx373 x373 0 PWL
 +	200n    0
 
 vx374 x374 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx375 x375 0 PWL  
 +	0n		mvdd
@@ -2601,10 +2601,10 @@ vx432 x432 0 PWL
 +	200n    mvdd
 
 vx433 x433 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx434 x434 0 PWL  
 +	0n		0
@@ -2739,10 +2739,10 @@ vx455 x455 0 PWL
 +	200n    0
 
 vx456 x456 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx457 x457 0 PWL  
 +	0n		mvdd
@@ -2931,10 +2931,10 @@ vx487 x487 0 PWL
 +	200n    mvdd
 
 vx488 x488 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx489 x489 0 PWL  
 +	0n		0
@@ -3093,10 +3093,10 @@ vx514 x514 0 PWL
 +	200n    mvdd
 
 vx515 x515 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx516 x516 0 PWL  
 +	0n		0
@@ -3267,34 +3267,34 @@ vx543 x543 0 PWL
 +	200n    mvdd
 
 vx544 x544 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx545 x545 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx546 x546 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx547 x547 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx548 x548 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx549 x549 0 PWL  
 +	0n		0
@@ -3303,22 +3303,22 @@ vx549 x549 0 PWL
 +	200n    0
 
 vx550 x550 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx551 x551 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx552 x552 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx553 x553 0 PWL  
 +	0n		mvdd
@@ -3351,10 +3351,10 @@ vx557 x557 0 PWL
 +	200n    mvdd
 
 vx558 x558 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx559 x559 0 PWL  
 +	0n		0

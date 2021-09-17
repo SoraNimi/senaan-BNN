@@ -1071,10 +1071,10 @@ vx177 x177 0 PWL
 +	200n    0
 
 vx178 x178 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx179 x179 0 PWL  
 +	0n		mvdd
@@ -1095,10 +1095,10 @@ vx181 x181 0 PWL
 +	200n    mvdd
 
 vx182 x182 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx183 x183 0 PWL  
 +	0n		0
@@ -1569,10 +1569,10 @@ vx260 x260 0 PWL
 +	200n    0
 
 vx261 x261 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx262 x262 0 PWL  
 +	0n		mvdd
@@ -2301,10 +2301,10 @@ vx382 x382 0 PWL
 +	200n    mvdd
 
 vx383 x383 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx384 x384 0 PWL  
 +	0n		0
@@ -2613,10 +2613,10 @@ vx434 x434 0 PWL
 +	200n    mvdd
 
 vx435 x435 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx436 x436 0 PWL  
 +	0n		mvdd
@@ -2793,10 +2793,10 @@ vx464 x464 0 PWL
 +	200n    0
 
 vx465 x465 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx466 x466 0 PWL  
 +	0n		mvdd
@@ -3099,10 +3099,10 @@ vx515 x515 0 PWL
 +	200n    mvdd
 
 vx516 x516 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx517 x517 0 PWL  
 +	0n		0
@@ -3273,10 +3273,10 @@ vx544 x544 0 PWL
 +	200n    mvdd
 
 vx545 x545 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx546 x546 0 PWL  
 +	0n		0
@@ -3423,10 +3423,10 @@ vx569 x569 0 PWL
 +	200n    0
 
 vx570 x570 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx571 x571 0 PWL  
 +	0n		mvdd
@@ -3801,10 +3801,10 @@ vx632 x632 0 PWL
 +	200n    mvdd
 
 vx633 x633 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx634 x634 0 PWL  
 +	0n		0

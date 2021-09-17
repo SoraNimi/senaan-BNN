@@ -123,7 +123,7 @@ x_test_t017 = np.delete(x_test_t017, 0, 0)
 #    plt.ylabel(7+1)
 #    plt.show()
 
-
+print(x_test_t017[1])
 for a in range(1, 101):
     output_file = open(("img%s.sp") % (a), "w")
     # output_file = open("img1.sp","w")
@@ -134,10 +134,10 @@ for a in range(1, 101):
     for i in range(0, 28):
         for j in range(0, 28):
             output_file.write("vx%s x%s 0 PWL  \n" % ((28 * i + j), (28 * i + j)))
-            output_file.write("+	0n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] >= 1 else 0))
-            output_file.write("+	20n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] >= 1 else 0))
-            output_file.write("+	25n	    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] >= 1 else 0))
-            output_file.write("+	200n    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] >= 1 else 0))
+            output_file.write("+	0n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
+            output_file.write("+	20n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
+            output_file.write("+	25n	    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
+            output_file.write("+	200n    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
             output_file.write('\n')
     output_file.write(".END\n")
 

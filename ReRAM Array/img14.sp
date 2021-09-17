@@ -753,10 +753,10 @@ vx124 x124 0 PWL
 +	200n    mvdd
 
 vx125 x125 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx126 x126 0 PWL  
 +	0n		0
@@ -1263,10 +1263,10 @@ vx209 x209 0 PWL
 +	200n    mvdd
 
 vx210 x210 0 PWL  
-+	0n		mvdd
-+	20n		mvdd
-+	25n	    mvdd
-+	200n    mvdd
++	0n		0
++	20n		0
++	25n	    0
++	200n    0
 
 vx211 x211 0 PWL  
 +	0n		0
