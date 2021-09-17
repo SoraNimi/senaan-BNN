@@ -100,6 +100,7 @@ X_test = X_test.astype('float32')
 # X_test[X_test>0]=1
 # X_test[X_test==0]=-1
 
+#test
 X_train[X_train>20]=1
 X_train[X_train<=0]=-1
 X_test[X_test>20]=1
