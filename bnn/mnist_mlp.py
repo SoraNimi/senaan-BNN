@@ -35,15 +35,8 @@ class DropoutNoScale(Dropout):
                                     training=training)
         return inputs
 
-
-
-
-
-
 def binary_tanh(x):
     return binary_tanh_op(x)
-
-
 
 
 #batch_size = 4096
@@ -91,21 +84,16 @@ start_time = datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S");
 
 X_train = X_train.reshape(60000, 784)
 X_test = X_test.reshape(10000, 784)
+print(X_train[0])
 X_train = X_train.astype('float32')
 X_test = X_test.astype('float32')
-# X_train /= 255
-# X_test /= 255
-# X_train[X_train>0]=1
-# X_train[X_train==0]=-1
-# X_test[X_test>0]=1
-# X_test[X_test==0]=-1
-
-#test
-X_train[X_train>20]=1
-X_train[X_train<=0]=-1
-X_test[X_test>20]=1
-X_test[X_test<=0]=-1
-
+X_train /= 255
+print(X_train[0])
+X_test /= 255
+X_train[X_train>0.1]=1
+X_train[X_train<=0.1]=-1
+X_test[X_test>0.1]=1
+X_test[X_test<=0.1]=-1
 #print(X_train[0])
 print(X_train.shape[0], 'train samples')
 print(X_test.shape[0], 'test samples')
