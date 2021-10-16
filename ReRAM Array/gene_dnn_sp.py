@@ -3,9 +3,9 @@ import numpy as np
 # neuron = np.sign(np.load('layer0_neuron0.npy'))
 # neuron = np.random.randint(2,size=1024)
 
-arrayR100 = np.random.normal(100, 10, 5000000)
+arrayR100 = np.random.normal(100, 2.5, 5000000)
 num100 = 0
-arrayR53 = np.random.normal(5.3, 0.53, 5000000)
+arrayR53 = np.random.normal(5.3, 0.1325, 5000000)
 num53 = 0
 
 weight = np.load('weight_512.npy', allow_pickle=True, encoding="latin1")
