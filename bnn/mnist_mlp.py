@@ -41,7 +41,7 @@ def binary_tanh(x):
 
 #batch_size = 4096
 batch_size = 128
-epochs = 500
+epochs = 1000
 
 #epochs = 1
 #epochs = 1
@@ -90,10 +90,10 @@ X_test = X_test.astype('float32')
 X_train /= 255
 print(X_train[0])
 X_test /= 255
-X_train[X_train>0.1]=1
-X_train[X_train<=0.1]=-1
-X_test[X_test>0.1]=1
-X_test[X_test<=0.1]=-1
+X_train[X_train>0]=1
+X_train[X_train<=0]=-1
+X_test[X_test>0]=1
+X_test[X_test<=0]=-1
 #print(X_train[0])
 print(X_train.shape[0], 'train samples')
 print(X_test.shape[0], 'test samples')
