@@ -15,7 +15,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 num = 0
 for loop in range(2000):
@@ -24,7 +24,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -34,7 +34,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -44,7 +44,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -54,7 +54,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -64,7 +64,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -74,7 +74,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -84,7 +84,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -94,7 +94,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 num = 0
@@ -104,7 +104,7 @@ for loop in range(2000):
         y_test_t017 = np.append(y_test_t017, y_test[loop].astype(np.uint8))
         x_test_t017 = np.append(x_test_t017, np.expand_dims(x_test[loop], 0), axis=0)
         num = num + 1
-        if num == 10:
+        if num == 50:
             break
 
 x_test_t017 = np.delete(x_test_t017, 0, 0)
@@ -124,7 +124,7 @@ x_test_t017 = np.delete(x_test_t017, 0, 0)
 #    plt.show()
 
 print(x_test_t017[1])
-for a in range(1, 101):
+for a in range(1, 501):
     output_file = open(("img%s.sp") % (a), "w")
     # output_file = open("img1.sp","w")
     output_file.write(".PARAM mvdd=1.8\n")
@@ -134,10 +134,10 @@ for a in range(1, 101):
     for i in range(0, 28):
         for j in range(0, 28):
             output_file.write("vx%s x%s 0 PWL  \n" % ((28 * i + j), (28 * i + j)))
-            output_file.write("+	0n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
-            output_file.write("+	20n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
-            output_file.write("+	25n	    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
-            output_file.write("+	200n    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 25.5 else 0))
+            output_file.write("+	0n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 0 else 0))
+            output_file.write("+	20n		%s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 0 else 0))
+            output_file.write("+	25n	    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 0 else 0))
+            output_file.write("+	200n    %s\n" % ("mvdd" if x_test_t017[a -1][i][j] > 0 else 0))
             output_file.write('\n')
     output_file.write(".END\n")
 
