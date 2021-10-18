@@ -56,7 +56,7 @@ def binary_tanh(x):
 
 #batch_size = 4096
 batch_size = 128
-epochs = 200
+epochs = 1
 #epochs = 1
 #epochs = 1
 nb_classes = 10
