@@ -22,9 +22,7 @@ from binary_layers import BinaryDense, BinaryDense1, BinaryDense2, BinaryDense3,
 from keras.models import load_model
 
 
-
-
-
+tf.compat.v1.disable_eager_execution()
 
 
 
@@ -257,7 +255,7 @@ o9=[7,9,12,16,20,58,62,73,78,92]
 ############middle layer output#################
 inp = model.input                                           # input placeholder
 outputs = [layer.output for layer in model.layers]          # all layer outputs
-functor = K.function([inp]+ [K.learning_phase()], outputs ) # evaluation function
+functor = K.function([inp]+ [K.learning_phase()], outputs) # evaluation function
 functor1 = K.function([inp], outputs )
 
 
